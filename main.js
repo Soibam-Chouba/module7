@@ -14,4 +14,4 @@ console.log(isEnrolled);
 document.getElementById("student_name").innerHTML = "Student Name: " + student_name;
 document.getElementById("age").innerHTML = "Age: " + age;
 document.getElementById("course_name").innerHTML = "Course Name: " + course_name;
-document.getElementById("isEnrolled").innerHTML = "Course Enroll: " isEnrolled;
+document.getElementById("isEnrolled").innerHTML = "Course Enrolled: " + isEnrolled;
