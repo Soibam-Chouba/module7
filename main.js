@@ -52,3 +52,11 @@ while(i >= 1) {
     document.getElementById("while").innerHTML += i + "<br>";
     i--;
 }
+
+// function
+document.getElementById("function").innerHTML = "<h3>Function</h3>";
+function helloWorld() {
+        return "Hello World";
+}
+
+document.getElementById("result").innerHTML = helloWorld();
