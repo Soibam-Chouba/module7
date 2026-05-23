@@ -36,3 +36,19 @@ document.getElementById("addition").innerHTML = "Addition: " + addition;
 document.getElementById("subtraction").innerHTML = "Subtraction: " + subtraction;
 document.getElementById("multiplication").innerHTML = "Multiplication: " + multiplication;
 document.getElementById("division").innerHTML = "Division: " + division;
+
+// loop practice
+ document.getElementById("loop").innerHTML = "<h3>Loop pratice</h3>";
+
+document.getElementById("for").innerHTML = "For loop: <br>";
+for(let i = 1; i <= 10; i++) {
+    document.getElementById("for").innerHTML += i + "<br>";
+}
+
+document.getElementById("while").innerHTML = "While loop: <br>";
+let i = 10;
+
+while(i >= 1) {
+    document.getElementById("while").innerHTML += i + "<br>";
+    i--;
+}
